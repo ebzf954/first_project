@@ -1,0 +1,31 @@
+
+
+print(" hello! welcome - List-to-do:1 - list-to-do:1 - calculator:3")
+print(" calculator - List-to-do:2 - list-to-do:2 - calculator:4")
+
+x=float(input("enter ur number"))
+print("enter ur operation_+_*_-_/ - List-to-do:5 - list-to-do:5 - calculator:7")
+operation=input("")
+y=float(input("enter ur second number"))
+
+if operation == "+" :
+     result = x + y
+     print(f"{x} {operation} {y} = {result} - List-to-do:11 - list-to-do:11 - calculator:13")
+
+elif operation == "-" :
+    result = x - y
+    print(f"{x} {operation} {y} = {result} - List-to-do:15 - list-to-do:15 - calculator:17")
+
+elif operation == "/" :
+    if y == 0:
+        print("error: division by zero! - List-to-do:19 - list-to-do:19 - calculator:21")
+    else:
+        result = x / y
+        print(f"{x} {operation} {y} = {result} - List-to-do:22 - list-to-do:22 - calculator:24")
+
+elif operation == "*":
+    result = x * y
+    print(f"{x} {operation} {y} = {result} - List-to-do:26 - list-to-do:26 - calculator:28")
+
+else:
+    print (" ur operation is not avillable - List-to-do:29 - list-to-do:29 - calculator:31")
